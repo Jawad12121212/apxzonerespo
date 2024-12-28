@@ -22,7 +22,7 @@ const Hero = () => {
           ))}
           </div>
         </div>
-        <div className="right h-full w-[50%] max-sm:h-[30vh] max-sm:w-full flex justify-center items-center">
+        <div className="right h-full w-[50%] max-sm:h-[50vh] max-sm:w-full flex justify-center items-center">
           <div className="relative max-sm:h-[50vw] max-sm:w-[50vw] xl:h-[30vw] xl:w-[30vw] md:h-[40vw] md:w-[40vw] rounded-full">
             <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] max-sm:h-[35vw] max-sm:w-[35vw] h-[20vw] w-[20vw] rounded-full flex items-center justify-center">
               <img src="/img/man.png" alt="" />

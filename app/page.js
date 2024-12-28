@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 
 const page = () => {
   return (
-    <main className='font-Gilroy px-[6vw] font-bold bg-red-600'>
+    <main className='font-Gilroy px-[6vw] font-bold bg-[#D8EEFF]'>
       <Navbar/>
       <Hero/>
       <Project/>
