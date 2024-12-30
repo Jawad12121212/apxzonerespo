@@ -44,15 +44,15 @@ const Project = () => {
       </div>
       <div className="relative xl:h-[100vh] w-full md:h-[30vh] overflow-hidden max-sm:h-[50vh]">
         {data.map((item, i) => (
-          <div key={i} ref={(el) => (slideRefs.current[i] = el)} className="xl:h-[100vh] md:h-[25vh] w-full absolute flex gap-[5vw] max-sm:flex-col">
-            <div className="h-full w-[50%] max-sm:hidden">
-              <img className='xl:h-full w-full rounded-3xl object-cover object-top md:h-[20vh]' src="https://i.pinimg.com/736x/34/49/4e/34494e6f99d3636cc8bbb7a1f2bcda52.jpg"/>
+          <div key={i} ref={(el) => (slideRefs.current[i] = el)} className="xl:h-[100vh] md:h-[25vh] w-full absolute flex gap-[5vw]">
+            <div className="h-full w-[50%]">
+              <img className='xl:h-full w-full rounded-3xl object-cover object-top md:h-[20vh] max-sm:h-[30vh]' src="https://i.pinimg.com/736x/34/49/4e/34494e6f99d3636cc8bbb7a1f2bcda52.jpg"/>
             </div>
-            <div className="h-full w-[50%] max-sm:h-[50vh] max-sm:w-full xl:pt-[5vw]">
+            <div className="h-full w-[50%] max-sm:h-[50vh] max-sm:w-[50%] xl:pt-[5vw]">
               <h1 className='text-[3vw] max-sm:text-[20px]'>{item.head1}</h1>
-              <h2 className='text-[2vw] py-[2vw] max-sm:text-[15px]'>{item.head2}</h2>
-              <h3 className='text-[1.5vw] max-sm:text-[12px]'>{item.head3}</h3>
-              <div className="mt-[1vw] max-sm:text-[8px] md:text-[10px] xl:text-sm">
+              <h2 className='text-[2vw] py-[2vw] max-sm:text-[10px]'>{item.head2}</h2>
+              <h3 className='text-[1.5vw] max-sm:text-[10px]'>{item.head3}</h3>
+              <div className="mt-[1vw] max-sm:text-[7px] md:text-[10px] xl:text-sm">
               <div className="flex justify-between">
                 <p>Client</p>
                 <p>THE ULTIMATE SHOPPING EXPERIENCE</p>
@@ -66,8 +66,8 @@ const Project = () => {
                 <p>THE ULTIMATE SHOPPING EXPERIENCE</p>
               </div>
               </div>
-              <h4 className='text-[1.5vw] py-[1vw] max-sm:text-[12px]'>{item.head4}</h4>
-              <p className='max-sm:text-[8px]'>{item.des}</p>
+              <h4 className='text-[1.5vw] py-[1vw] max-sm:text-[10px]'>{item.head4}</h4>
+              <p className='max-sm:text-[7px]'>{item.des}</p>
             </div>
           </div>
         ))}
