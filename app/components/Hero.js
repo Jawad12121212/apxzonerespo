@@ -10,7 +10,7 @@ const Hero = () => {
     { icn: '/img/VI.png', name: 'Branding' },
   ]
   return (
-    <section className='h-screen w-full flex'>
+    <section className='h-screen w-full flex justify-center items-center'>
       <div className="left max-sm:h-[50vh] sm:h-[70vh] md:h-[90vh] lg:h-[100vh] flex flex-col justify-center items-start w-[50%] lg:justify-end">
         <h1 className='text-[4vw] leading-[3.7vw] w-[80%]'>WE CRAFT EXTRAORDINARY DIGITAL PRODUCT & EXPERIENCE</h1>
         <p className='pt-[2vw] max-sm:text-[1.6vw] sm:text-[2vw] md:text-[2vw] lg:text-[1.3vw] leading-none'>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptas rerum culpa deleniti dolores necessitatibus quo dolorum perferendis exercitationem repellat, fugit sunt! Sed expedita minima alias, nostrum officiis deserunt accusamus.</p>
