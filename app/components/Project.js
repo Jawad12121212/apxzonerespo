@@ -45,7 +45,7 @@ const Project = () => {
       <div className="relative xl:h-[100vh] w-full md:h-[30vh] overflow-hidden max-sm:h-[50vh]">
         {data.map((item, i) => (
           <div key={i} ref={(el) => (slideRefs.current[i] = el)} className="xl:h-[100vh] md:h-[25vh] w-full absolute flex gap-[5vw]">
-            <div className="lg:h-[110vh] w-[50%] max-sm:h-[31vh] sm:h-[36vh] md:h-[36vh] flex flex-wrap justify-between items-start gap-[1.61vw]">
+            <div className="h-full w-[50%]">
               <img className='xl:h-full w-full rounded-3xl object-cover object-top md:h-[20vh] max-sm:h-[30vh]' src="https://i.pinimg.com/736x/34/49/4e/34494e6f99d3636cc8bbb7a1f2bcda52.jpg"/>
             </div>
             <div className="h-full w-[50%] max-sm:h-[50vh] max-sm:w-[50%] xl:pt-[5vw]">
