@@ -42,7 +42,7 @@ const Project = () => {
           <span onClick={() => { handleNext() }} className='p-[1vw] rounded-xl bg-[#237FC6] cursor-pointer text-white text-[1.8vw] md:text-[30px] max-sm:text-[12px]'><FaChevronRight /></span>
         </div>
       </div>
-      <div className="relative lg:h-[110vh] w-full md:h-[60vh] overflow-hidden max-sm:h-[50vh] sm:h-[50vh] lg:bg-green-800">
+      <div className="relative lg:h-[110vh] w-full md:h-[60vh] overflow-hidden max-sm:h-[50vh] sm:h-[50vh]">
         {data.map((item, i) => (
           <div key={i} ref={(el) => (slideRefs.current[i] = el)} className="h-[110vh] w-full flex gap-[3vw]">
             <div className="lg:h-[110vh] w-[50%] max-sm:h-[31vh] sm:h-[36vh] md:h-[36vh] flex flex-wrap justify-between items-start gap-[1.61vw]">
